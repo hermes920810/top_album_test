@@ -1,0 +1,138 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`IconButton Snapshot tests it matches the snapshot 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+}
+
+.c0:hover {
+  background-color: #E7E7E7;
+}
+
+.c0:active {
+  background-color: #F3F3F3;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<button
+  class="c0 c1"
+>
+  test
+</button>
+`;
+
+exports[`IconButton Snapshot tests it matches the snapshot for disabled 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+  opacity: 0.3;
+}
+
+.c0:hover {
+  background-color: #E7E7E7;
+}
+
+.c0:active {
+  background-color: #F3F3F3;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<button
+  class="c0 c1"
+  disabled=""
+>
+  test
+</button>
+`;
+
+exports[`IconButton Snapshot tests it matches the snapshot for primary 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #F25C05;
+  color: #FFFFFF;
+}
+
+.c0:hover {
+  background-color: #DD5202;
+}
+
+.c0:active {
+  background-color: #FF7626;
+}
+
+.c1 {
+  display: -webkit-inline-box;
+  display: -webkit-inline-flex;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  width: 22px;
+  height: 22px;
+  font-size: 11px;
+  border-radius: 50%;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+
+<button
+  class="c0 c1"
+>
+  test
+</button>
+`;

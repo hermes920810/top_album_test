@@ -1,0 +1,105 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Snapshot tests it matches the snapshot with fullWidth = true 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+}
+
+.c0:hover {
+  background-color: #E7E7E7;
+}
+
+.c0:active {
+  background-color: #F3F3F3;
+}
+
+.c1 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 5px;
+  font-weight: 700;
+  width: 100%;
+}
+
+<button
+  class="c0 c1"
+>
+  test
+</button>
+`;
+
+exports[`Button Snapshot tests it matches the snapshot with min. props 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+}
+
+.c0:hover {
+  background-color: #E7E7E7;
+}
+
+.c0:active {
+  background-color: #F3F3F3;
+}
+
+.c1 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 5px;
+  font-weight: 700;
+}
+
+<button
+  class="c0 c1"
+>
+  test
+</button>
+`;
+
+exports[`Button Snapshot tests it matches the snapshot with transparent = true 1`] = `
+.c0 {
+  outline: none;
+  cursor: pointer;
+  border: 0 none;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+  background-color: #EEEEEE;
+  color: #5F5F5F;
+  background-color: transparent;
+}
+
+.c0:hover {
+  background-color: #E7E7E7;
+}
+
+.c0:active {
+  background-color: #F3F3F3;
+}
+
+.c1 {
+  border: 0;
+  border-radius: 8px;
+  padding: 8px 16px;
+  margin: 5px;
+  font-weight: 700;
+}
+
+<button
+  class="c0 c1"
+>
+  test
+</button>
+`;

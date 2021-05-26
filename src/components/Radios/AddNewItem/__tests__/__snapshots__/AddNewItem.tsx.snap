@@ -1,0 +1,74 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`AddNewItem Snapshot tests it matches the snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  width: 100px;
+  padding: 12px;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  cursor: pointer;
+  background: white;
+  border: 1px dashed #EEEEEE;
+  border-radius: 10px;
+  -webkit-transition: background ease 0.3s;
+  transition: background ease 0.3s;
+}
+
+.c0:hover {
+  background-color: #F3F3F3;
+}
+
+.c0:active {
+  background-color: #E7E7E7;
+}
+
+.c1 {
+  width: 16px;
+  height: 16px;
+  color: #ccc;
+  margin-right: 8px;
+}
+
+.c2 {
+  color: #808080;
+}
+
+<div
+  class="c0"
+>
+  <div
+    class="c1"
+  >
+    <svg
+      aria-hidden="true"
+      class="svg-inline--fa fa-plus fa-w-14 "
+      data-icon="plus"
+      data-prefix="fas"
+      focusable="false"
+      role="img"
+      viewBox="0 0 448 512"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <path
+        d="M416 208H272V64c0-17.67-14.33-32-32-32h-32c-17.67 0-32 14.33-32 32v144H32c-17.67 0-32 14.33-32 32v32c0 17.67 14.33 32 32 32h144v144c0 17.67 14.33 32 32 32h32c17.67 0 32-14.33 32-32V304h144c17.67 0 32-14.33 32-32v-32c0-17.67-14.33-32-32-32z"
+        fill="currentColor"
+      />
+    </svg>
+  </div>
+  <div
+    class="c2"
+  >
+    test
+  </div>
+</div>
+`;
